@@ -11,10 +11,10 @@ function Header() {
         <h2>React Github</h2>
       </div>
       <nav>
-        <RouterLink class="app-link" to="/">
+        <RouterLink className="app-link" to="/">
           About
         </RouterLink>
-        <RouterLink class="app-link" to="/projects">
+        <RouterLink className="app-link" to="/projects">
           Projects
         </RouterLink>
       </nav>
