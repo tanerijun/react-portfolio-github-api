@@ -7,9 +7,26 @@
   background-color: #222;
   height: 60px;
   display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.title {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-link {
   color: white;
+  text-decoration: none;
+  margin-right: 1em;
 }
 
 @keyframes App-logo-spin {
